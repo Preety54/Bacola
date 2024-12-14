@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bacola - Grocery Market and Food Theme -KibTheme</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/kMVq2EJwljfF0H4h+l6tsLvo1qMjJ1d8tb+7KSDO1o6I8P8K6DxFVJXYXgI8E4cyb4N6o4ffLxOcA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+  <div class="text-center py-2 text-white bg-blue-900 h-[35px]">
+    <h1 class="text-[13px]">
+      Due to the <span class="font-bold">COVID 19</span> epidemic, orders may
+      be processed with a slight delay
+    </h1>
+  </div>
+
+  <div>
+    <div class="h-10 flex justify-between max-w-[1187px] mx-auto">
+      <div class="hidden md:flex text-[12.7px]">
+        <nav class="flex items-center space-x-[18px]">
+          <a href="#aboutus" class="text-gray-600 hover:text-blue-500">About Us</a>
+          <a href="#myaccount" class="text-gray-600 hover:text-blue-500">My account</a>
+          <a href="#wishlist" class="text-gray-600 hover:text-blue-500">Wishlist</a>
+          <a href="#ordertracking" class="text-gray-600 hover:text-blue-500">Order Tracking</a>
+        </nav>
+      </div>
+      <div class="flex space-x-4 items-center text-[12.7px]">
+         <p class="text-gray-600 flex">
+          <img class="h-5 w-5 space-x-2" src="/Images/palm.png" alt="" />
+          100% Secure delivery without contacting the courier
+        </p>
+
+        <span class="text-gray-300">|</span>
+
+        <div class="text-gray-600">
+          Need help? Call Us:
+          <span class="text-[#2bbef9] font-bold">+0020 500</span>
+        </div>
+
+        <span class="text-gray-300">|</span>
+
+        <div class="flex items-center space-x-2">
+          <div class="relative font-semibold">
+            <select class="bg-gray-100 text-gray-600 px-2 py-1 rounded-md">
+              <option>English</option>
+              <option>French</option>
+              <option>Spanish</option>
+            </select>
+          </div>
+
+          <div class="relative font-semibold">
+            <select class="bg-gray-100 text-gray-600 px-2 py-1 rounded-md">
+              <option>USD</option>
+              <option>EUR</option>
+              <option>GBP</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mx-auto px-4 py-4 flex items-center justify-between text-xs max-w-[1220px] mt-3">
+    <div>
+      <img class="h-11 w-[167px]" src="/Images/theme-logo-dark.webp" alt="Logo">
+      <p class="text-gray-400 text-[12px]">Online Grocery Shopping Center</p>
+    </div>
+
+
+    <div class="flex items-center space-x-6">
+
+      <div class="relative w-[180px] h-[60px]">
+        <h1 class="absolute top-2 left-3 text-gray-400 text-[10px]">Your Location</h1>
+        <select class="bg-gray-100 border border-gray-300 text-gray-600 px-2 pt-5 pb-1 rounded-md w-full h-full">
+          <option disabled selected>Select a Location</option>
+          <option>New York</option>
+          <option>Los Angeles</option>
+          <option>Chicago</option>
+        </select>
+      </div>
+
+
+
+      <div class="flex relative bg-gray-200 w-[500px] border border-gray-300 rounded-md">
+        <input type="text" placeholder="Search for products..."
+          class="h-[60px] w-[90%] px-4  bg-gray-200 text-gray-600  text-[15px]">
+
+
+
+        <img class="h-5 absolute right-1 top-1/2 transform -translate-y-1/2 mr-3" src="/Images/search.png" alt="">
+      </div>
+    </div>
+
+    <div class="flex items-center space-x-5">
+      <div class="flex items-center ">
+        <img class="h-11  rounded-full border border-gray-300" src="/Images/profile.png" alt="">
+      </div>
+
+
+      <div class="text-black-600 font-semibold ">
+        <span class="font-arial text-lg ">$0.00</span>
+      </div>
+
+      <div class="flex items-center ">
+        <img class="h-12 rounded-full" src="/Images/cart.jpg" alt="">
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="third max-w-[1210px] mx-auto h-[80px]  border-b border-gray-300">
+    <nav class="items-center justify-center flex justify-between">
+      <div class="flex items-center gap-6 ">
+        <div class="relative z-10">
+          <button class="flex items-center h-14 w-[210px] px-4 py-2 bg-blue-400 font-bold text-white rounded-full">
+            <img class="h-5 " src="/Images/menu.png" alt="">
+            <span class="mr-2 ml-1">ALL CATEGORIES</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <h1 class="h-4 w-[120px] rounded-full bg-gray-200 text-[10px] text-gray-500 ml-10 -mt-2"><span
+              class="ml-3">TOTAL 63 PRODUCTS</span></h1>
+          <div
+            class="absolute h-[494px] left-0 mt-4 w-72  py-8 space-y-3 bg-white border border-gray-300 rounded-md shadow-lg  ">
+            <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 text-[14px]">Fruits & Vegetables</a>
+            <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 text-[14px]">Meats & Seafood</a>
+            <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 text-[14px]">Breakfast & Dairy</a>
+            <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 text-[14px]">Breads & Bakery</a>
+            <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 text-[14px]">Frozen Foods</a>
+            <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 text-[14px]">Biscuits & Snacks</a>
+            <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 text-[14px]">Grocery & Staples</a>
+            <p class="border-t mt-3">
+              <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 text-[14px] font-semibold">Value of the
+                Day</a>
+              <a href="#" class="block px-4 py-2 text-gray-600  hover:bg-gray-100 text-[14px] font-semibold">Top 100
+                offers</a>
+              <a href="#" class="block px-4 py-2 text-gray-600  hover:bg-gray-100 text-[14px] font-semibold">New
+                Arrivals</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="flex ml-36">
+          <div class="relative group">
+            <button
+                class="text-gray-700 h-11 w-[100px] bg-gray-100 group-hover:bg-gray-200 group-hover:text-blue-400 font-medium px-4 py-2 rounded-full flex items-center">
+                HOME
+                <svg class="w-4 h-4 ml-2 transform group-hover:rotate-180 transition-transform duration-200" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+            <div
+                class="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg hidden group-hover:block"
+                style="z-index: 50;">
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">Home 1</a>
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">Home 2</a>
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">Home 3</a>
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">Home 4</a>
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">Home 5</a>
+            </div>
+        </div>
+
+          <div class="relative group">
+            <button
+                class="text-gray-700 h-11 w-[100px] bg-gray-100 group-hover:bg-gray-200 group-hover:text-blue-400 font-medium px-4 py-2 rounded-full flex items-center">
+                SHOP
+                <svg class="w-4 h-4 ml-2 transform group-hover:rotate-180 transition-transform duration-200" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+            <div
+                class="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg hidden group-hover:block"
+                style="z-index: 50;">
+                <a href="#" class="block px-4 py-2 text-blue-900 hover:bg-gray-100 hover:text-blue-400 font-bold">Shop Lists</a>
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">Shop Default</a>
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">Shop Right Sidebar</a>
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">Shop Wide</a>
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">List Left Sidebar</a>
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">Load More Button</a>
+                <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400">Infinite Scrolling</a>
+            </div>
+        </div>
+
+          
+          <div class="relative group ">
+            <button
+              class="text-gray-700 h-11 w-[150px] bg-gray-100 rounded-full group-hover:bg-gray-200 hover:text-blue-400 font-medium">
+              <img class="h-5 w-5 inline" src="/Images/Meats.png" alt="">
+              MEATS & FOOD
+            </button>
+          </div>
+
+          
+          <div class="relative group">
+            <button
+              class="text-gray-700 h-11 w-[110px] bg-gray-100 group-hover:bg-gray-200 rounded-full hover:text-blue-400 font-medium">
+              <img class="h-5 w-5 inline" src="/Images/bakery.png" alt="">
+              BAKERY
+            </button>
+          </div>
+
+         
+          <div class="relative group">
+            <button
+              class="text-gray-700 h-11 w-[150px] bg-gray-100 group-hover:bg-gray-200 items-center flex rounded-full pl-2 hover:text-blue-400 font-medium">
+              <img class="h-7 w-7 inline" src="/Images/bevarages.png" alt="">
+              <span class="ml-2">BEVERAGES </span>
+            </button>
+          </div>
+
+         
+          <div class="relative group">
+            <button
+              class="text-gray-700 h-11 w-[110px] bg-gray-100 group-hover:bg-gray-200 rounded-full hover:text-blue-400 font-medium">
+              BLOG
+            </button>
+          </div>
+
+    
+          <div class="relative group">
+            <button
+              class="text-gray-700 h-11 w-[110px] bg-gray-100 group-hover:bg-gray-200 rounded-full hover:text-blue-400 font-medium">
+              CONTACT
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
+  </div>
+
+
+  <div class="fourth max-w-[1210px] mx-auto">
+    <div class="relative mt-6 w-full overflow-hidden">
+     
+      <div class="absolute z-50 w-full flex left-[410px] space-x-2 top-[420px]">
+        <span class="dot w-2.5 h-2.5 bg-gray-400 rounded-full cursor-pointer" data-index="0"></span>
+        <span class="dot w-2.5 h-2.5 bg-gray-400 rounded-full cursor-pointer" data-index="1"></span>
+        <span class="dot w-2.5 h-2.5 bg-gray-400 rounded-full cursor-pointer" data-index="2"></span>
+      </div>
+  
+      
+      <div class="carousel flex transition-transform duration-1000 ease-in-out relative" id="carousel">
+        <!-- pic 1 -->
+        <div class="flex justify-end w-full flex-shrink-0 relative">
+          <div class="absolute w-[800px] h-[470px] py-28">
+            <div class="flex space-x-4">
+              <h1 class="text-[15px]">EXCLUSIVE OFFER </h1>
+              <h1 class="h-8 w-[100px] -mt-1 bg-gradient-to-r from-green-300 to-white text-center rounded-full font-semibold flex items-center justify-center text-green-800">
+                -20% OFF
+              </h1>
+            </div>
+            <p class="text-[40px] font-bold font-arial w-[400px]">Specialist in the grocery store</p>
+            <h1 class="text-[18px] mt-3">Only this week. Don't miss...</h1>
+            <h1 class="text-[18px]">from <span class="text-red-700 font-semibold text-[35px]">$7.99</span></h1>
+  
+            <button class="bg-blue-400 text-white font-semibold px-6 py-2 rounded-full hover:bg-blue-500 transition duration-300">
+              Shop Now ->
+            </button>
+          </div>
+          <img class="w-[900px] h-[470px] border border-gray-300 rounded-md" src="/Images/slider-image-1.jpg" alt="">
+        </div>
+  
+        <!-- Pic 2 -->
+        <div class="flex justify-end w-full flex-shrink-0 relative">
+          <div class="absolute w-[800px] h-[470px] py-28">
+            <div class="flex space-x-4">
+              <h1 class="text-[15px]">EXCLUSIVE OFFER </h1>
+              <h1 class="h-8 w-[100px] -mt-1 bg-gradient-to-r from-green-300 to-white text-center rounded-full font-semibold flex items-center justify-center text-green-800">
+                -30% OFF
+              </h1>
+            </div>
+            <p class="text-[40px] font-bold font-arial w-[400px]">Feed your family the best</p>
+            <h1 class="text-[18px] mt-3">Only this week. Don't miss...</h1>
+            <h1 class="text-[18px]">from <span class="text-red-700 font-semibold text-[35px]">$8.99</span></h1>
+  
+            <button class="bg-blue-400 text-white font-semibold px-6 py-2 rounded-full hover:bg-blue-500 transition duration-300">
+              Shop Now ->
+            </button>
+          </div>
+          <img class="w-[900px] h-[470px] border border-gray-300 rounded-md" src="/Images/second.webp" alt="">
+        </div>
+  
+        <!-- Pic 3 -->
+        <div class="flex justify-end w-full flex-shrink-0 relative">
+          <div class="absolute w-[800px] h-[470px] py-28">
+            <div class="flex space-x-4">
+              <h1 class="text-[15px]">EXCLUSIVE OFFER </h1>
+              <h1 class="h-8 w-[100px] -mt-1 bg-gradient-to-r from-green-300 to-white text-center rounded-full font-semibold flex items-center justify-center text-green-800">
+                -40% OFF
+              </h1>
+            </div>
+            <p class="text-[40px] font-bold font-arial w-[400px]">Grocery full of inspiration</p>
+            <h1 class="text-[18px] mt-3">Only this week. Don't miss...</h1>
+            <h1 class="text-[18px]">from <span class="text-red-700 font-semibold text-[35px]">$6.99</span></h1>
+  
+            <button class="bg-blue-400 text-white font-semibold px-6 py-2 rounded-full hover:bg-blue-500 transition duration-300">
+              Shop Now ->
+            </button>
+          </div>
+          <img class="w-[900px] h-[470px] border border-gray-300 rounded-md" src="/Images/third.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.carousel > div'); 
+    const totalSlides = slides.length;
+    const dots = document.querySelectorAll('.dot'); 
+  
+    function moveToNextSlide() {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      const newTransformValue = `translateX(-${currentIndex * 100}%)`;
+      document.getElementById('carousel').style.transform = newTransformValue;
+  
+      updateDots();
+    }
+  
+    function updateDots() {
+       dots.forEach(dot => dot.classList.remove('bg-blue-500'));
+       dots[currentIndex].classList.add('bg-blue-500');
+    }
+    setInterval(moveToNextSlide, 2000); // Slide interval: 2 seconds
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        currentIndex = parseInt(dot.getAttribute('data-index'));
+        const newTransformValue = `translateX(-${currentIndex * 100}%)`;
+        document.getElementById('carousel').style.transform = newTransformValue;
+        
+        updateDots();
+      });
+    });
+    updateDots();
+  </script>
+
+</body>
+
+</html>
